@@ -30,21 +30,6 @@ A FastAPI-based expense tracking application with Model Context Protocol (MCP) i
 - **MCP**: FastMCP
 - **Server**: Uvicorn
 
-## 📁 Project Structure
-
-```
-expense-tracking-system/
-│
-├── server.py           # FastAPI application and routes
-├── crud.py             # Database CRUD operations
-├── models.py           # SQLAlchemy models
-├── schemas.py          # Pydantic schemas
-├── database.py         # Database configuration
-├── mcp_server.py       # MCP integration
-├── requirements.txt    # Python dependencies
-└── README.md          # Project documentation
-```
-
 
 ## 🤖 MCP Integration
 
