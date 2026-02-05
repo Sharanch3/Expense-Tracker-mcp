@@ -45,15 +45,14 @@ MCP is a protocol that enables AI models to connect to external tools and data s
 
 ### MCP Server Setup
 
-The `mcp_server.py` file wraps your FastAPI application with FastMCP:
+The `main.py` file wraps FastAPI application with FastMCP:
 
 
 
 ### Using with Claude Desktop
 
 1. **Configure Claude Desktop** to connect to your MCP server
-2. **Start the MCP server**: `python mcp_server.py`
-3. **Interact naturally**: "Add a $50 food expense for today" or "Show me my spending summary for last month"
+2. **Interact naturally**: "Add a $50 food expense for today" or "Show me my spending summary for last month"
 
 ---
 
